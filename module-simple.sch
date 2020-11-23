@@ -26178,6 +26178,11 @@ W = angled&lt;p&gt;
 <wire x1="233.68" y1="165.1" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
 <label x="233.68" y="154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SW2" gate="A" pin="5"/>
+<wire x1="228.6" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+<label x="218.44" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="STATUS_FAULT_CH1" class="0">
 <segment>
@@ -26205,6 +26210,11 @@ W = angled&lt;p&gt;
 <pinref part="SV2" gate="1" pin="1"/>
 <wire x1="218.44" y1="165.1" x2="218.44" y2="152.4" width="0.1524" layer="91"/>
 <label x="218.44" y="154.94" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SW2" gate="A" pin="6"/>
+<wire x1="228.6" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
+<label x="218.44" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -26474,20 +26484,6 @@ W = angled&lt;p&gt;
 <pinref part="SV2" gate="1" pin="3"/>
 <wire x1="223.52" y1="165.1" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="223.52" y="154.94" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="FAULT1" class="0">
-<segment>
-<pinref part="SW2" gate="A" pin="5"/>
-<wire x1="228.6" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<label x="218.44" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FAULT2" class="0">
-<segment>
-<pinref part="SW2" gate="A" pin="6"/>
-<wire x1="228.6" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
-<label x="218.44" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
